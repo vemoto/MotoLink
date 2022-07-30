@@ -3,10 +3,10 @@
 	url = https://github.com/ChibiOS/ChibiOS.git
 [submodule "code/ChibiOS-Contrib"]
 	path = code/ChibiOS-Contrib
-	url = https://github.com/fpoussin/ChibiOS-Contrib.git
+	url = https://github.com/ChibiOS/ChibiOS-Contrib.git
 [submodule "code/app/dsp_lib"]
 	path = code/app/dsp_lib
-	url = https://github.com/fpoussin/cm4-dsp-lib.git
+	url = https://github.com/vemoto/cm4-dsp-lib.git
 [submodule "GUI/QtUsb"]
 	path = GUI/QtUsb
-	url = https://github.com/fpoussin/QtUsb.git
+	url = https://github.com/vemoto/QtUsb.git

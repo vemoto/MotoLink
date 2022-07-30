@@ -80,6 +80,8 @@ buildscripts.commands = cd $$_PRO_FILE_PWD_/res && python3 makefw.py
 
 QMAKE_EXTRA_TARGETS += buildscripts
 PRE_TARGETDEPS += .buildscripts
+# Ubah Shared Library ke Executable
+QMAKE_LFLAGS += -no-pie
 
 # Icon for windows
 win32:RC_FILE = res/motolink.rc
@@ -95,7 +97,7 @@ INSTALLS += conf
 
 unix:!macx {
     icon.path = /usr/share/pixmaps
-    icon.files = res/images/motolink.png
+    icon.files = res/images/icon.png
     INSTALLS += icon
 
     launcher.path = /usr/share/applications
