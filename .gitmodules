@@ -6,7 +6,7 @@
 	url = https://github.com/ChibiOS/ChibiOS-Contrib.git
 [submodule "code/app/dsp_lib"]
 	path = code/app/dsp_lib
-	url = https://github.com/vemoto/cm4-dsp-lib.git
+	url = git@github.com:vemoto/cm4-dsp-lib.git
 [submodule "GUI/QtUsb"]
 	path = GUI/QtUsb
-	url = https://github.com/vemoto/QtUsb.git
+	url = git@github.com:vemoto/QtUsb.git
